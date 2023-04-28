@@ -19,7 +19,7 @@ public class App
         System.out.println(sessionFactory);
 
         //creating new student
-        Student student = new Student(101, "Anish", "Manpur");
+        Student student = new Student(106, "hari mama", "hasnpur");
         System.out.println(student);
 
         Session session = sessionFactory.openSession();
